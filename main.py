@@ -5,7 +5,8 @@ import uuid
 
 from PIL import Image
 import pytesseract
-pytesseract.pytesseract.tesseract_cmd = 'C:\Program Files\Tesseract-OCR\\tesseract.exe'
+#uncomment for use on windows system
+#pytesseract.pytesseract.tesseract_cmd = 'C:\Program Files\Tesseract-OCR\\tesseract.exe'
 
 filenameimage = sys.argv[1]
 filenametext = sys.argv[2]
