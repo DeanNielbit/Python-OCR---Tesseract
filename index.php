@@ -34,7 +34,7 @@ if ($uploadOk == 0) {
 
       /*show output*/
       echo '<h2>OUTPUT TEXT</h2><br />';
-      $command = system('python main.py '.$newfilename.' '.rand().'.txt');
+      $command = system('python3 main.py '.$newfilename.' '.rand().'.txt');
       @$output = shell_exec($command);
       echo ''.$output.'<br /><br />';
 
